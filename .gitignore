@@ -1,0 +1,21 @@
+# virtual environments
+venv/
+.env/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# build outputs
+out/
+dist/
+build/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
