@@ -25,12 +25,10 @@ CAR DETAILS
 MOT: Valid until Mar 2026
 ESTIMATED VALUE
 Trade: £4630 | Retail: £6530
+
 POSSIBLE DEALS
 Ford Focus Zetec 2017 - clean — £5400 (AutoTrader)
 Potential profit: £180 (3.2%)
-
-yaml
-Copy code
 
 ---
 
@@ -48,38 +46,32 @@ cariq-cli/
 ├── requirements.txt # dependencies
 └── README.md # documentation
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Installation
 
-1. Clone this repository:
+1. **Clone this repository**
    ```bash
    git clone https://github.com/M77Rahman/cariq-cli.git
    cd cariq-cli
-Create a virtual environment:
 
-bash
-Copy code
+Create a virtual environment
 python3 -m venv venv
 source venv/bin/activate
-Install dependencies:
 
-bash
-Copy code
+Install dependencies
 pip install -r requirements.txt
-Run the app:
 
-bash
-Copy code
+Run the app
 python cariq.py
+
 🔑 API Keys Setup
+
 You’ll need free keys to access live data:
 
 API	Purpose	Registration Link
 DVLA Vehicle Enquiry API	Fetch real car details like make, model, and MOT status	DVLA Developer Portal
+
 DVSA MOT History API	Fetch vehicle MOT test history	DVSA Developer Portal
 
 Once approved, paste your keys inside:
@@ -89,6 +81,7 @@ dvla_api.py
 mot_api.py
 
 🧩 Future Roadmap
+
  Replace mock valuations with live AutoTrader or Parkers scraping
 
  Add Streamlit web dashboard version
@@ -98,15 +91,13 @@ mot_api.py
  Profit tracking dashboard using Google Sheets or Looker Studio
 
 👨‍💻 Author
+
 Muhammad Emdadur Rahman
 Tech-driven developer focused on automation, data, and real-world problem solving.
-LinkedIn • GitHub
+LinkedIn
+ • GitHub
 
 🪶 License
+
 This project is for educational and portfolio use only.
 APIs used are property of the UK DVLA and DVSA.
-
-yaml
-Copy code
-
----
